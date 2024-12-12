@@ -10,6 +10,7 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
+import { FcDownload } from "react-icons/fc";
 
 
 function Home() {
@@ -85,7 +86,7 @@ function Home() {
                     <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
                         <img
                             src={pic}
-                            className="rounded-full md:w-[300px] md:h-[300px]" alt="" />
+                            className="rounded-full md:w-[450px] md:h-[450px]" alt="" />
                     </div>
                 </div>
             </div>

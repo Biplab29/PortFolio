@@ -22,18 +22,9 @@ function Experiance() {
             logo: java,
             name: "Java"
         },
+      
         {
             id: 4,
-            logo: oracle,
-            name: "Oracle"
-        },
-        {
-            id: 5,
-            logo: spring,
-            name: "Spring Boot"
-        },
-        {
-            id: 6,
             logo: javascript,
             name: "JavaScript"
         }

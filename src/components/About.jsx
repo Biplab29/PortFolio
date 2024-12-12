@@ -16,16 +16,20 @@ function About() {
         </h1>
         <span>
         <div>
-            <strong>2024:</strong> MCA, Rcc Institute of Information technology (MAKAUT)
+            <strong>2024 : MCA</strong>  
+            <p >Rcc Institute of Information technology(MAKAUT)</p>
           </div>
           <div>
-            <strong>2022:</strong> BCA, Silda Chandra Shekar College (Vidyasagar University)
+            <strong>2022: BCA</strong> 
+            <p>Silda Chandra Shekar College (Vidyasagar University)</p>
           </div>
           <div>
-            <strong>2019:</strong> Jhargram Nanibala Vidyalaya (H.S)
+            <strong>2019: Jhargram Nanibala Vidyalaya(H.S)</strong>
+            <p> West Bengal Council of Higher Secondary Education(WBCHSE) </p>
           </div>
           <div>
-            <strong>2017:</strong> Jhargram Nanibala Vidyalaya (Madhyamik)
+            <strong>2017:Jhargram Nanibala Vidyalaya(H.S)</strong> 
+            <p> West Bengal Board of Secondary Education(WBBSE)</p>
           </div>
         </span>
         <br />
@@ -42,20 +46,24 @@ function About() {
         </span>
         <br />
         <h1 className="text-green-500 font-semibold text-xl"> 
-       Professionaln Exprience 
+       Professional Experience 
         </h1>
         <span>
             Full Stack Developer 
         </span>
         <br /><br />
         <h1 className="text-green-500 font-semibold text-xl"> 
-        Achievements & Awards 
+        Summer Internship
         </h1>
         <span>
             <div>
             <strong>2024: </strong> 
             Oracle DBA along with Basics of AWS<br /> 
             From VUCS Private Limited
+          </div>
+          <div>
+            <strong>2023: </strong> 
+           Cloud Computing(MeitY)
           </div>
         </span>
         <br /> 
