@@ -62,7 +62,7 @@ function Navbar() {
                         </a>
 
                         {/* Mobile Menu Icon */}
-                        <div onClick={() => setMenu(!menu)} className="md:hidden">
+                        <div onClick={() => setMenu(!menu)} >
                             {menu ? <IoCloseSharp size={24} /> : <AiOutlineMenu size={24} />}
                         </div>
                     </div>
