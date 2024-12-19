@@ -54,27 +54,26 @@ function PortFolio() {
     ]
 
     return (
-        <div name="Portfolio"
-            className="max-w-screen-2xl container mx-auto px-4 md:px-30 mt-10" >
-            <div>
-                <h1 className="text-3xl font-bold mb-5" >  Skills </h1>
-                {/* <span className="underline font-semibold"> Featured Projects </span> */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-4 my-5">
-    {
-        cardItem.map(({ id, logo, name }) => (
-            <div className="md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:scale-110 duration-300" key={id}>
-                <img src={logo} className="w-[120px] h-[120px] p-1 rounded-full border-[2px]" alt="" />
+        <div name="Portfolio" className="max-w-screen-2xl container mx-auto px-4 md:px-30 mt-10">
+      <div>
+        <h1 className="text-3xl font-bold mb-5">Skills</h1>
+        {/* Skills Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 my-5">
+          {
+            cardItem.map(({ id, logo, name }) => (
+              <div key={id} className="text-center p-2 cursor-pointer hover:scale-110 duration-300">
+                <img src={logo} className="w-[120px] h-[120px] p-1 rounded-full border-[2px] mx-auto" alt={name} />
                 <div>
-                    <div className="px-2 font-bold text-xl mb-2"> {name}</div>
-                    <p className="px-2 text-gray-700"> I have some knowledge
-                    </p>
+                  <div className="font-bold text-xl mb-2">{name}</div>
+                  <p className="text-gray-700">I have some knowledge in {name}.</p>
                 </div>
-            </div>
-        ))}
-</div>
-            </div>
+              </div>
+            ))
+          }
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default PortFolio
+export default PortFolio;
