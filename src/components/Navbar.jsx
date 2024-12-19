@@ -62,7 +62,7 @@ function Navbar() {
                         </a>
 
                         {/* Mobile Menu Icon */}
-                        <div onClick={() => setMenu(!menu)} >
+                        <div onClick={() => setMenu(!menu)} className="md:hidden">
                             {menu ? <IoCloseSharp size={24} /> : <AiOutlineMenu size={24} />}
                         </div>
                     </div>
@@ -92,7 +92,7 @@ function Navbar() {
 
                             {/* Resume Button in Mobile Menu */}
                             <a
-                                href="/resume.pdf" // Change this to your actual resume link
+                                href="../../public/resume.pdf" // Change this to your actual resume link
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center px-4 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
