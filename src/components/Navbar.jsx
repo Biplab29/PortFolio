@@ -50,7 +50,7 @@ function Navbar() {
 
                         {/* Resume Button */}
                         <a
-                            href="../../public/resume.pdf"  
+                            href="../../public/Resume.pdf"  
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hidden md:inline-flex items-center px-2 py-2 ml-8 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
