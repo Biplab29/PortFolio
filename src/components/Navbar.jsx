@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import pic from "../../public/photo.jpg";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from 'react-scroll';
@@ -20,7 +19,7 @@ function Navbar() {
             <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white">
                 <div className="flex justify-between items-center h-16">
                     <div className="flex space-x-2">
-                        <img src={pic} className="h-12 w-12 rounded-full" alt="Profile" />
+                        <img src="/photo.jpg" className="h-12 w-12 rounded-full" alt="Profile" />
                         <h2 className="font-semibold text-xl cursor-pointer">
                             Bipla<span className="text-green-500 text-2xl">b</span>
                             <p className="text-sm">Software Developer</p>
@@ -50,13 +49,12 @@ function Navbar() {
 
                         {/* Resume Button */}
                         <a
-                            href="/Resume.pdf"  
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="/resume.pdf"
+                            download
                             className="hidden md:inline-flex items-center px-2 py-2 ml-8 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
                         >
                             Resume
-                            <FcDownload className="mr-1" size={20} />
+                            <FcDownload className="ml-2" size={20} />
                         </a>
 
                         {/* Mobile Menu Icon */}
@@ -90,13 +88,12 @@ function Navbar() {
 
                             {/* Resume Button in Mobile Menu */}
                             <a
-                                href="/resume.pdf" 
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                href="/resume.pdf"
+                                download
                                 className="inline-flex items-center px-4 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
                             >
                                 Resume
-                                <FcDownload className="mr-2" size={20} />
+                                <FcDownload className="ml-2" size={20} />
                             </a>
                         </ul>
                     </div>
