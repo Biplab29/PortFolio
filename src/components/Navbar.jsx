@@ -50,7 +50,7 @@ function Navbar() {
 
                         {/* Resume Button */}
                         <a
-                            href="../../public/Resume.pdf"  
+                            href="/Resume.pdf"  
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hidden md:inline-flex items-center px-2 py-2 ml-8 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
@@ -89,15 +89,15 @@ function Navbar() {
                             ))}
 
                             {/* Resume Button in Mobile Menu */}
-                            <a href="/Resume.pdf" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-  className="inline-flex items-center px-4 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
->
-  Resume
-  <FcDownload className="mr-2" size={20} />
-</a>
-
+                            <a
+                                href="/resume.pdf" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center px-4 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
+                            >
+                                Resume
+                                <FcDownload className="mr-2" size={20} />
+                            </a>
                         </ul>
                     </div>
                 )}
