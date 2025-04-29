@@ -1,16 +1,15 @@
 import React from "react";
 import pic from "../../public/photo.jpg"
 
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
-import { FcDownload } from "react-icons/fc";
+
 
 
 function Home() {
@@ -46,9 +45,9 @@ function Home() {
                                 <h1 className="font-bold ">Available on</h1>
                                 <ul className="flex space-x-5">
                                     <li>
-                                        <a href="https://www.facebook.com/"
+                                        <a href="https://github.com/Biplab29"
                                             target="_blank">
-                                            <FaSquareFacebook className="text-2xl cursor-pointer" />
+                                            <FaGithub className="text-2xl cursor-pointer" />
                                         </a>
                                     </li>
 
@@ -56,12 +55,6 @@ function Home() {
                                         <a href="https://www.linkedin.com/"
                                             target="_blank">
                                             <FaLinkedin className="text-2xl cursor-pointer" />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/"
-                                            target="_blank">
-                                            <IoLogoYoutube className="text-2xl cursor-pointer" />
                                         </a>
                                     </li>
                                     <li>

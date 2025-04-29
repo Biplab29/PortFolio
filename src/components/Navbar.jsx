@@ -89,15 +89,15 @@ function Navbar() {
                             ))}
 
                             {/* Resume Button in Mobile Menu */}
-                            <a
-                                href="../../public/resume.pdf" 
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center px-4 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
-                            >
-                                Resume
-                                <FcDownload className="mr-2" size={20} />
-                            </a>
+                            <a href="/Resume.pdf" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+  className="inline-flex items-center px-4 py-2 text-white bg-green-500 hover:bg-green-600 rounded-lg shadow-md duration-200"
+>
+  Resume
+  <FcDownload className="mr-2" size={20} />
+</a>
+
                         </ul>
                     </div>
                 )}
