@@ -22,7 +22,6 @@ function Navbar() {
                         <img src="/photo.jpg" className="h-12 w-12 rounded-full" alt="Profile" />
                         <h2 className="font-semibold text-xl cursor-pointer">
                             Bipla<span className="text-green-500 text-2xl">b</span>
-                            {/* <p className="text-sm">Software Developer</p> */}
                         </h2>
                     </div>
 
