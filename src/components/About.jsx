@@ -96,7 +96,7 @@ function About() {
         </div>
 {/* Project 2 */}
 <div className="mb-8">
-  <strong>3) AirBnb - Full Stack Project </strong>
+  <strong>2) AirBnb - Full Stack Project </strong>
   <br />
   <b>Language of Implementation:</b> HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js, MongoDB
   <p>Live Link: <a href="https://airbnb-mern-project-usm2.onrender.com" className="text-blue-500 underline">airbnb-mern-project-usm2.onrender.com</a></p>
