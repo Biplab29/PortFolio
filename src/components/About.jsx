@@ -144,7 +144,6 @@ function About() {
   </ul>
 </div>
 
-
       </section>
     </div>
   );
